@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212" height="240" viewBox="0 0 212 240">
+  <defs>
+    <radialGradient id="skin" cx="35%" cy="30%" r="85%">
+      <stop offset="0%" stop-color="#FFE9D2"/>
+      <stop offset="60%" stop-color="#F2C39A"/>
+      <stop offset="100%" stop-color="#E2A36E"/>
+    </radialGradient>
+
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#222"/>
+      <stop offset="100%" stop-color="#0F0F10"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- Head (oval) -->
+  <g filter="url(#shadow)">
+    <path d="M106 22
+             C63 22, 30 56, 30 112
+             C30 175, 66 218, 106 218
+             C146 218, 182 175, 182 112
+             C182 56, 149 22, 106 22Z"
+          fill="url(#skin)" stroke="#C88454" stroke-width="4"/>
+  </g>
+
+  <!-- Ears -->
+  <ellipse cx="33" cy="122" rx="11" ry="18" fill="#EAB488" stroke="#C88454" stroke-width="3"/>
+  <ellipse cx="179" cy="122" rx="11" ry="18" fill="#EAB488" stroke="#C88454" stroke-width="3"/>
+
+  <!-- Hair (short, black, no bangs) -->
+  <path d="M44 92
+           C44 54, 74 30, 106 30
+           C141 30, 170 56, 168 96
+           C156 84, 137 78, 120 78
+           C104 78, 90 82, 74 82
+           C60 82, 52 86, 44 92Z"
+        fill="url(#hair)"/>
+  <path d="M50 88
+           C58 62, 80 44, 106 44
+           C132 44, 154 62, 162 88
+           C146 78, 128 74, 106 74
+           C84 74, 66 78, 50 88Z"
+        fill="#0B0B0C" opacity="0.55"/>
+
+  <!-- Eyebrows -->
+  <path d="M56 106 C70 98, 86 98, 98 106" fill="none" stroke="#1A1A1A" stroke-width="8" stroke-linecap="round"/>
+  <path d="M114 106 C126 98, 142 98, 156 106" fill="none" stroke="#1A1A1A" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Glasses (rectangular, black) -->
+  <g>
+    <rect x="42" y="110" width="72" height="44" rx="10" fill="#0F172A"/>
+    <rect x="98" y="126" width="16" height="10" rx="5" fill="#0F172A"/>
+    <rect x="98" y="110" width="72" height="44" rx="10" fill="#0F172A"/>
+
+    <rect x="48" y="116" width="60" height="32" rx="8" fill="#2A2F3A"/>
+    <rect x="104" y="116" width="60" height="32" rx="8" fill="#2A2F3A"/>
+
+    <path d="M54 120 L78 120 L56 148 Z" fill="#fff" opacity="0.10"/>
+    <path d="M110 120 L134 120 L112 148 Z" fill="#fff" opacity="0.10"/>
+  </g>
+
+  <!-- Eyes -->
+  <g>
+    <circle cx="78" cy="132" r="9.5" fill="#0B0F14"/>
+    <circle cx="134" cy="132" r="9.5" fill="#0B0F14"/>
+    <circle cx="74.5" cy="128.5" r="3" fill="#fff" opacity="0.9"/>
+    <circle cx="130.5" cy="128.5" r="3" fill="#fff" opacity="0.9"/>
+  </g>
+
+  <!-- Nose -->
+  <path d="M106 140
+           C102 148, 102 154, 106 158
+           C110 154, 110 148, 106 140Z"
+        fill="#D38D5C" opacity="0.6"/>
+
+  <!-- Smile (no beard/mustache) -->
+  <path d="M72 172
+           C86 190, 126 190, 140 172"
+        fill="none" stroke="#6A2B16" stroke-width="10" stroke-linecap="round"/>
+  <path d="M84 176
+           C94 184, 118 184, 128 176"
+        fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Cheeks -->
+  <ellipse cx="60" cy="166" rx="16" ry="10" fill="#FF6B7A" opacity="0.20"/>
+  <ellipse cx="152" cy="166" rx="16" ry="10" fill="#FF6B7A" opacity="0.20"/>
+</svg>

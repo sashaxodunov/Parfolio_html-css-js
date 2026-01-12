@@ -2,10 +2,13 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.navbar {
+.container {
   max-width: 870px;
   width: 100%;
   margin: auto;
+}
+
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,7 +23,7 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: #BF7506;
+  color: #bf7506;
   margin-left: 24px;
   font-size: 16px;
   line-height: 150%;
@@ -29,3 +32,76 @@ body {
 .nav-link.active {
   font-weight: 700;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.container {
+}
+
+.header-photo {
+  width: 200px;
+  margin-left: 20px;
+}
+
+.header-text {
+  margin-left: 27px;
+}
+
+.header-strong {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+}
+
+.header-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.header-primary {
+  color: #bf7506;
+}
+
+.social-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.social-link {
+  display: inline-block;
+  padding: 8px;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+}
+
+
+.cv-download {
+  padding: 7px 8px;
+  margin-left: 55px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+  border-bottom: 2px solid #bf7506;
+}
+
+.cv-icon {
+  margin-right: 4px;
+}
+

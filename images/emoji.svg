@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212" height="240" viewBox="0 0 212 240">
+  <defs>
+    <radialGradient id="face" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#FFE9A6" />
+      <stop offset="55%" stop-color="#FFD35A" />
+      <stop offset="100%" stop-color="#FFB300" />
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur" />
+      <feOffset dx="0" dy="2" result="off" />
+      <feMerge>
+        <feMergeNode in="off" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- background (transparent by default) -->
+  <!-- Face -->
+  <g filter="url(#soft)">
+    <circle cx="106" cy="120" r="92" fill="url(#face)" stroke="#D88A00" stroke-width="6" />
+  </g>
+
+  <!-- Cheeks -->
+  <ellipse cx="60" cy="150" rx="18" ry="12" fill="#FF7A8A" opacity="0.35" />
+  <ellipse cx="152" cy="150" rx="18" ry="12" fill="#FF7A8A" opacity="0.35" />
+
+  <!-- Sunglasses -->
+  <g>
+    <rect x="38" y="86" width="62" height="38" rx="12" fill="#111827" />
+    <rect x="112" y="86" width="62" height="38" rx="12" fill="#111827" />
+    <rect x="98" y="98" width="16" height="10" rx="5" fill="#111827" />
+    <path d="M38 102 C58 92, 80 92, 100 102" fill="none" stroke="#0B1220" stroke-width="6" opacity="0.9" />
+    <path d="M112 102 C132 92, 154 92, 174 102" fill="none" stroke="#0B1220" stroke-width="6" opacity="0.9" />
+
+    <!-- shine -->
+    <path d="M50 92 L70 92 L52 120 Z" fill="#FFFFFF" opacity="0.12" />
+    <path d="M124 92 L144 92 L126 120 Z" fill="#FFFFFF" opacity="0.12" />
+  </g>
+
+  <!-- Smile -->
+  <path d="M70 160 C88 182, 124 182, 142 160" fill="none" stroke="#7A3E00" stroke-width="10" stroke-linecap="round" />
+  <path d="M78 163 C92 176, 120 176, 134 163" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"
+    opacity="0.5" />
+
+  <!-- Small spark -->
+  <g transform="translate(168 44)">
+    <path d="M0 10 L10 10 L10 0 L14 0 L14 10 L24 10 L24 14 L14 14 L14 24 L10 24 L10 14 L0 14 Z" fill="#7C3AED"
+      stroke="#4C1D95" stroke-width="2" />
+  </g>
+</svg>

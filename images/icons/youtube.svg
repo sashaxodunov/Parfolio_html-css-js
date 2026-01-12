@@ -1,0 +1,7 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.000000" height="24.000000" fill="none">
+	<rect id="youtube" width="24.000000" height="24.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<g id="yt">
+		<path id="Vector" d="M18.75 19.5L5.25 19.5C2.775 19.5 0.75 17.475 0.75 15L0.75 9C0.75 6.525 2.775 4.5 5.25 4.5L18.75 4.5C21.225 4.5 23.25 6.525 23.25 9L23.25 15C23.25 17.475 21.225 19.5 18.75 19.5Z" fill="rgb(194,25,30)" fill-rule="nonzero" />
+		<path id="Vector" d="M9 15.75L9 8.25L16.5 12L9 15.75Z" fill="rgb(255,255,255)" fill-rule="nonzero" />
+	</g>
+</svg>
