@@ -124,6 +124,9 @@ body {
   margin-bottom: 40px;
 }
 .card-image {
+  width: 100%;
+  max-height: 250px;
+  
 }
 
 .card-text-wrapper
