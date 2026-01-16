@@ -17,6 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 40px;
 }
 
 .nav-list {
@@ -169,6 +170,7 @@ body {
   border: 1px solid #dd9c3c;
   border-radius: 4px;
   margin-right: 4px;
+  margin-bottom: 4px;
 
 
 }
@@ -264,7 +266,16 @@ body {
 }
 
 .feedback {
+  position: relative;
   padding: 80px 0 160px;
+
+}
+
+.feedback-hand {
+  position: absolute;
+  right: 0;
+  top: 20%;
+  width: 25%;
 }
 
 .form-container {
@@ -297,7 +308,7 @@ body {
 .input {
   border: 3px solid #e0dedc;
   border-radius: 4px;
-  width: 435px;
+  width: 100%;
   height: 56px;
 }
 
@@ -324,4 +335,53 @@ body {
 .button-group {
   display: flex;
   justify-content: flex-end;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 760px;
+  }
+  .card {
+    max-width: 350px;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 90%;
+  }
+  .header {
+    padding-top: 30px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .header-links,
+  .cards,
+  .navbar {
+    flex-direction: column;
+  }
+  .cv-download {
+    margin-left: 0;
+  }
+  .card {
+    max-width: 100%;
+  }
+  .tags {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .font-container {
+    width: 90%;
+  }
+  .nav-list {
+    flex-direction: column;
+  }
+  .nav-link {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
 }
