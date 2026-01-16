@@ -238,16 +238,22 @@
         <form action="#" class="form">
           <div class="input-group">
             <label for="userName" class="input-label">Имя</label>
-            <input id="userName" type="text" class="input" />
+            <input id="userName" name="client_name" type="text" class="input" />
           </div>
           <div class="input-group">
             <label for="userEmai" class="input-label">Email</label>
-            <input id="userEmail" type="text" class="input" />
+            <input
+              id="userEmail"
+              name="client_email"
+              type="text"
+              class="input"
+            />
           </div>
           <div class="input-group">
             <label for="userMassage" class="input-label">Сообщение</label>
             <textarea
               id="userMassage"
+              name="client_massage"
               cols="30"
               rows="30"
               class="input textarea"
@@ -266,5 +272,6 @@
         </form>
       </div>
     </section>
+    <script src="js/main.js"></script>
   </body>
 </html>
